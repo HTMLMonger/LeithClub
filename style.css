@@ -1,0 +1,170 @@
+body, html{
+    margin:0;
+    padding:0;
+    color:bisque;
+
+}
+
+header{
+    box-shadow: 2px 2px 5px red, 0px -2px 5px red;
+
+}
+nav{
+    padding: 1rem 0rem;
+    margin:0; 
+    display:flex;
+    width: 100%;
+    padding:auto;
+    margin:auto;
+    color:bisque;
+    background-color:#005EB9;
+}
+    
+
+nav ul{
+    display:flex;
+    padding:0;
+    margin:0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li {
+    list-style-type: none;
+    width: 10em;
+    text-align: center;
+}
+
+.cover{
+    display:flex;
+    padding: 0 auto;
+    margin: 2rem auto;
+
+}
+.cover img{
+    margin:0 auto;
+    padding: 0 auto;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.gallery .container{
+    width: 100%;
+    margin: 0 1%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    background-color: #005EB9;
+    padding:0.5rem;
+    box-shadow: 2px 2px 7.5px red, -2px -2px 7.5px red;
+    
+}
+
+.gallery .container img{
+    width:100%;
+    height: auto;
+}
+
+.description{
+    height: 100%;
+    margin: 4rem auto;
+    padding:2rem 0;
+    background-color: #005EB9;
+    color:bisque;
+    text-align: center;
+    font-size:1.5rem;
+    align-content: center;
+    box-shadow: 2px 2px 7.5px red, 0px -2px 7.5px red;
+}
+.description p{
+    width: 65%;
+    margin: 0 auto;
+    
+    
+}
+
+hr{
+    border: 1px solid red;
+    margin:0;
+    padding: 0;
+}
+
+
+.testimonial{
+    height:100%;
+    background-color: #005EB9;
+    color:bisque;
+    margin: 4rem auto;
+    padding:2rem 0;
+    text-align: center;
+    font-size:1.5rem;
+    align-content: center;
+    box-shadow: 2px 2px 7.5px red, 0px -2px 7.5px red;
+}
+
+.testimonial p{
+    width:65%;
+    padding:auto;
+    margin: auto;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner img{
+    max-width:100%;
+    text-align:center;
+    height:auto;
+    width:15%;
+    margin:2rem auto;
+    border:3px solid #005EB9;
+    box-shadow: 2px 2px 7.5px red, 0px -2px 7.5px red;
+
+}
+.banner h2{
+    text-align: center;
+    width:35%;
+    margin: 0 auto;
+    font-size: 3rem;
+    color:#005EB9;
+}
+
+@media only screen and (max-width: 768px){
+    .gallery{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .gallery .container{
+        padding:0 0; 
+        margin: 0;
+        box-shadow: none;
+
+    }
+
+    nav ul{
+        flex-direction: column;
+    }
+
+    .description{
+        padding-bottom: 2rem;
+        margin-bottom:0;
+    }
+
+    .testimonial{
+        padding: 2rem 0;
+        margin:0 0;
+    }
+
+    .banner h2{
+        font-size: 1.5rem;
+    }
+}
+
+
+    
